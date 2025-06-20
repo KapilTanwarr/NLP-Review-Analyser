@@ -29,22 +29,19 @@ nlp-review-analysis/
 ├── README.md # Project documentation
 └── .gitignore # Git ignore file
 
- Install Required Packages
+# Install Required Packages
 It’s recommended to use a virtual environment:
 pip install -r requirements.txt
-3. Run the NLP Pipeline
+Run the NLP Pipeline
 python nlp_pipeline.py
 This will clean the data, run sentiment analysis & topic modeling, and update data/reviews.csv.
-
-4. Launch the Streamlit Dashboard
-
+Launch the Streamlit Dashboard
 streamlit run app/streamlit_app.py
 Then open the browser (if it doesn't open automatically) and go to:
-
-arduino
-
+rduino
 http://localhost:8501
 📊 Dashboard Preview
+
 The dashboard includes:
 
 📈 Sentiment Distribution Chart (Positive/Neutral/Negative)
@@ -53,7 +50,7 @@ The dashboard includes:
 
 📋 Interactive Table of all reviews with sentiment and topic annotations
 
-💡 Tech Stack
+# 💡 Tech Stack
 Python · Pandas · Regex · NLTK
 
 VADER Sentiment Analyzer
@@ -64,10 +61,10 @@ Plotly for charts
 
 Streamlit for web app UI
 
-📁 Dataset
-This project uses customer reviews from the Amazon Reviews Dataset. You can replace data/reviews.csv with your own dataset (just ensure there's a Text column or rename it in the code).
+# 📁 Dataset
+This project uses customer reviews from the Amazon Reviews Dataset. You can replace C:\Python\data\reviews.csv with your own dataset (just ensure there's a Text column or rename it in the code).
 
-🔄 Customization Ideas
+# 🔄 Customization Ideas
 Integrate HuggingFace transformers for advanced classification
 
 Add word clouds or TF-IDF visualizations
