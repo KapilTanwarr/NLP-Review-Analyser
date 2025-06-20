@@ -1,0 +1,13 @@
+# Byte‑code
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*.csv
+
+# Environments
+.env
+.venv
